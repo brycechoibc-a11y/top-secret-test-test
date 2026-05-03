@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/top-secret-test-test',
+  assetPrefix: '/top-secret-test-test',
   images: {
     unoptimized: true,
   },
