@@ -175,7 +175,7 @@ export default function Home() {
         {showYesResponse ? (
           <div className="yes-response">
             <h1 className="love-text">I LOVE YOU TOOOOOOOOOOOOOOOOOOOOOO</h1>
-            <img src="/i-love-you-wow.gif" alt="I Love You Wow" className="yes-gif" />
+            <img src="/top-secret-test-test/i-love-you-wow.gif" alt="I Love You Wow" className="yes-gif" />
           </div>
         ) : !showQuestion ? (
           <h1
@@ -191,7 +191,7 @@ export default function Home() {
               <button className="yes-btn" onClick={handleYesClick}>Yes</button>
               <button className="no-btn" onClick={(e) => e.stopPropagation()}>No</button>
             </div>
-            <img src="/penguin-gas.gif" alt="Penguin Gas" className="penguin-gif" />
+            <img src="/top-secret-test-test/penguin-gas.gif" alt="Penguin Gas" className="penguin-gif" />
           </div>
         ) : showSecondQuestion ? (
           <div className="question-container">
@@ -200,7 +200,7 @@ export default function Home() {
               <button className="yes-btn" onClick={handleYesClick}>Yes</button>
               <button className="no-btn" onClick={handleNoClick}>No</button>
             </div>
-            <img src="/scared-oh-no.gif" alt="Scared Oh No" className="penguin-gif" />
+            <img src="/top-secret-test-test/scared-oh-no.gif" alt="Scared Oh No" className="penguin-gif" />
           </div>
         ) : (
           <div className="question-container">
@@ -209,7 +209,7 @@ export default function Home() {
               <button className="yes-btn" onClick={handleYesClick}>Yes</button>
               <button className="no-btn" onClick={handleNoClick}>No</button>
             </div>
-            <img src="/i-love-you-flirt.gif" alt="I Love You Flirt" className="penguin-gif" />
+            <img src="/top-secret-test-test/i-love-you-flirt.gif" alt="I Love You Flirt" className="penguin-gif" />
           </div>
         )}
       </div>
